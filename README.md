@@ -1,3 +1,5 @@
+<img width="1354" height="637" alt="Capture" src="https://github.com/user-attachments/assets/4d3424cc-23e6-4861-aa60-bb7bf447bc47" />
+
 📝 Project Overview
 
 The BMI Calculator is a simple web-based tool that allows users to calculate their Body Mass Index (BMI) by entering their weight and height.
