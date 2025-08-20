@@ -1,0 +1,79 @@
+body{
+    background-color: aquamarine;
+    background:url("bmi3.jpg");
+    background-size: cover;
+
+}
+.container{
+   background-color: #b19595;
+   max-width: 400px;
+   margin: 100px auto;
+   padding: 20px;
+   border: 2px solid black;
+   border-radius: 10px;
+   box-shadow: 10px  10px  10px rgb(26, 26, 32);
+
+}
+h2{
+
+  font-family:  poppins, sans-serif;
+   
+    margin-top: 0;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-family:  poppins, sans-serif;
+    font-size: large;
+    font-weight: 600px;
+    margin-bottom: 5px;
+    color: solid black;
+
+}
+input[type="number"],
+select{
+     width: 95%;
+     padding: 10px;
+     border: none;
+     background-color: white;
+     border-radius: 10px;
+     box-shadow: 5px 4px 4px  ;
+     margin-bottom: 10px;
+
+}
+
+input[type="number"]:focus,
+select:focus{
+     outline: none;
+      box-shadow: 2px 2px 2px  rgb(7, 7, 80);
+}
+select{
+    width: 100%;
+}
+
+input[type="submit"]{
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #48b5a0;
+            border: none;
+            border-radius: 10px;
+            box-shadow:5px 4px 4px  ;
+            
+            cursor: pointer;
+            transition: background-color 0.s ease;
+}
+input[type="submit"]:hover{
+   background-color: #706565;
+
+}
+#result{
+    font-weight: bold;
+    margin-top: 30px;
+    color: #000000
+}
